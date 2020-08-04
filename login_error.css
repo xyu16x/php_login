@@ -1,0 +1,75 @@
+/*全体のフォント設定*/
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+/*ヘッダーここから*/
+header {
+    border-bottom: 4px solid lightgray;
+    height: 80px;
+    text-align: center;
+}
+
+header img {
+    width: 300px;
+    line-height: 80px;
+}
+
+header a {
+    position: absolute;
+        top: 60px;
+        right: 10px;
+}
+/*ヘッダーここまで*/
+
+/*フォーム全体のBOX*/
+.contents {
+    width: 400px;
+    margin: 30px auto;
+    border: 2px solid lightgray;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.alert {
+    color: red;
+    background-color: pink;
+    border: 1px pink solid;
+    width: 400px;
+    margin: 0 auto 30px auto;
+    text-align:center;
+}
+
+.login_form p {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+/*入力フォーム*/
+.text {
+    display: block;
+    border: 1px solid lightgray;
+    width: 25em;
+    margin: 0 auto;
+}
+
+
+/*ログインボタン*/
+.button {
+    background-color: #31A263;
+    color:white;
+    width: 150px;
+    display: block;
+    margin: 30px auto 0 auto ;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: lightgray;
+    font-size: 16px;
+    border-top: 4px solid lightgray;
+    height: 40px;
+    line-height: 50px;
+}

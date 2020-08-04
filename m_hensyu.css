@@ -1,0 +1,101 @@
+/*全体のフォント設定*/
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+/*ヘッダーここから*/
+header {
+    border-bottom: 4px solid lightgray;
+    height: 80px;
+    text-align: center;
+}
+
+header img {
+    width: 300px;
+    line-height: 80px;
+}
+
+header a {
+    position: absolute;
+        top: 60px;
+        right: 10px;
+}
+/*ヘッダーここまで*/
+
+/*フォーム全体のBOX*/
+.contents {
+    width: 600px;
+    margin: 30px auto;
+    border: 2px solid lightgray;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+
+h3 {
+    text-align: center;
+    border-bottom: 2px solid #31A263;
+}
+
+
+.greeting {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+/*プロフィール画像*/
+.profile_left {
+    float: left;
+    height: 150px;
+    width: 30%;
+    padding-left: 5px;
+}
+
+img {
+    height: 100%;
+}
+
+/*氏名欄*/
+.profile_right {
+    float: right;
+    height: 150px;
+    width: 69%;
+}
+
+.hensyu_form {
+    margin-top: 20px ;
+}
+
+/*フォーム欄*/
+input {
+    width: 16em;
+}
+
+/*コメント欄*/
+.comments {
+    clear: both;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+/*ボタン*/
+.button {
+    background-color: #31A263;
+    color:white;
+    width: 150px;
+    display: block;
+    margin: 25px auto 0 auto ;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: lightgray;
+    font-size: 16px;
+    border-top: 4px solid lightgray;
+    height: 40px;
+    line-height: 50px;
+}
